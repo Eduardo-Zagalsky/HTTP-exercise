@@ -1,0 +1,10 @@
+1. HTTP is Hypertext Transfer Protocol, the standard for trasferring information between client and server.
+2. URL is Uniform Resource Locator, the web address to identify a website. consists of protocol | hostname | port | resource | query
+3. DNS is Domain Name System, the human readable web address to a website, send a hostname and receive an IP Address to that website.
+4. A query string is the part of the URL used to identify specific part of a web search in key value pairs.
+5. The two most common HTTP verbs are GET and POST, Get retrieves a web request without adding information, such as a search result. Post sends information in the request to add to the site and alter the page, like a facebook post.
+6. An HTTP Request is when you type a URL, click a link, or do anything that requires the retrieval of addiotional information.
+7. An HTTP Response is the server sending information the the system providing the header, status code, and content of the requested information.
+8. An HTTP Header is part of the HTTP Request/Response process, it contains the main information that needs to be traded to get the correct result, such as sending a query or a post. I only know Accept is a header variable
+9. The processes that happen when searching that website is, the system requests the server to GET the IP Address of that hostname, the server looks for the information and responds with the IP Addressand the page contents.(html,css,js,etc...)
+then system make a new GET request for the resources and links in the content(img,links,etc...)
